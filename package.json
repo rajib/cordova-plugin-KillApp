@@ -1,0 +1,18 @@
+{
+    "version": "1.0.0",
+    "name": "com.rlc.kill-app",
+    "cordova_name": "Kill App",
+    "description": "Kill Android App",
+    "license": "Apache 2.0",
+    "repo": "",
+    "issue": "",
+    "keywords": [
+        "cordova",
+        "device"
+    ],
+    "platforms": [
+        "android",
+    ],
+    "engines": [],
+    "englishdoc": ""
+}

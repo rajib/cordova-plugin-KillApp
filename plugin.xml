@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.rlc.kill-app"
+    version="1.0.0">
+    <name>KillApp</name>
+    <description>The coolest Plugin ever implemented</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova, coolest</keywords>
+    <repo></repo>
+    <issue></issue>
+    <js-module src="www/KillApp.js" name="KillApp">
+        <clobbers target="KillApp" />
+    </js-module>
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="KillApp" >
+                <param name="android-package" value="KillApp"/>
+            </feature>
+        </config-file>
+        <source-file src="src/android/KillApp.java" target-dir="src/" />
+    </platform>
+</plugin>
