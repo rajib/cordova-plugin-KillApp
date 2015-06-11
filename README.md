@@ -18,5 +18,5 @@ Install the plugin
 
 Edit `www/index.html` and add the following code inside `<HEAD></HEAD>`
 
-```Include Javascript
-    <script type="text/javascript" src="KillApp.js"></script>
+```Javascript
+    `<script type="text/javascript" src="KillApp.js"></script>`
