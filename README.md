@@ -20,3 +20,5 @@ Edit `www/index.html` and add the following code inside `<HEAD></HEAD>`
 
 ```Javascript
     `<script type="text/javascript" src="KillApp.js"></script>`
+    
+    `KillApp.killProcess();`
