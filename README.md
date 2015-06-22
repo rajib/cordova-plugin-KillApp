@@ -2,7 +2,7 @@
 
 Simple plugin that exit android process using 'android.os.Process.killProcess(android.os.Process.myPid());'.
 
-Greeting app exit with 'navigator.app.exitApp();' some time does not work, as because it does not actually terminate the process. In those cshenario it is useful.
+Greeting app exit with 'navigator.app.exitApp();' some time does not work, as because it does not actually terminate the process. In those scenario it is useful.
 
 ## Using
 
